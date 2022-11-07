@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+
+}
+
+body{
+    background-color: gray;
+}
+
+header{
+    font-family: sans-serif;
+    background-color: rgb(71, 23, 23);
+    text-align: center;
+    padding: 35px;
+}
+header > h1{
+    font-size: 300%;
+}
+section{
+    font-family: cursive, sans-serif;
+    padding: 25px;
+    font-size: 2em;
+    
+}
+
+.fundo > p{
+    color: white;
+    background-color: rgba(44, 44, 44, 0.404);
+    width: 500px;
+}
+
+.normal{
+    background-color: white;
+    box-shadow: 0px 0px 11px 4px rgb(0, 0, 0);
+}
+
+#img1{
+    background: black url(imagens/ladybug-313162_1280.jpg) center center no-repeat fixed;
+    background-size: cover;
+    
+}
+
+#img2{
+    background: black url(imagens/debby-hudson-enNl3McVwSI-unsplash-scaled.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
