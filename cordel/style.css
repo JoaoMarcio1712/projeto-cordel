@@ -27,6 +27,16 @@ section{
     
 }
 
+a{
+    color: black;
+    transition: 0.2s;
+}
+
+a:hover{
+    color: gray;
+    text-decoration: underline;
+}
+
 .fundo > p{
     color: white;
     background-color: rgba(44, 44, 44, 0.404);
