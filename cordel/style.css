@@ -33,6 +33,12 @@ footer{
     background-color: black;
     text-align: center;
     font-size: 1.1em;
+    padding: 5px;
+}
+
+
+br{
+    margin: 10px;
 }
 
 a{
