@@ -27,6 +27,14 @@ section{
     
 }
 
+footer{
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 1.1em;
+}
+
 a{
     color: black;
     transition: 0.180s;
