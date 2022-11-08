@@ -9,7 +9,6 @@
 
 body{
     background-color: gray;
-    line-height: 3em;
 }
 
 header{
@@ -17,14 +16,21 @@ header{
     background-color: rgb(71, 23, 23);
     text-align: center;
     padding: 35px;
+
 }
+
 header > h1{
-    font-size: 300%;
+    font-size: 5vw;
 }
+
+
+
 section{
     font-family: cursive, sans-serif;
     padding: 10vh 0px 10vh 50px;
-    font-size: 1.5em;
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-style: italic;
 }
 
 footer{
@@ -50,9 +56,10 @@ a:hover{
 }
 
 .fundo > p{
+    display: inline-block;
     color: white;
     background-color: rgba(44, 44, 44, 0.404);
-    width: 400px;
+    padding: 10px;
 }
 
 .normal{
