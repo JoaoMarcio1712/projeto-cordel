@@ -9,6 +9,7 @@
 
 body{
     background-color: gray;
+    line-height: 3em;
 }
 
 header{
@@ -22,9 +23,8 @@ header > h1{
 }
 section{
     font-family: cursive, sans-serif;
-    padding: 25px;
-    font-size: 2em;
-    
+    padding: 10vh 0px 10vh 50px;
+    font-size: 1.5em;
 }
 
 footer{
@@ -33,9 +33,13 @@ footer{
     background-color: black;
     text-align: center;
     font-size: 1.1em;
-    padding: 5px;
 }
 
+footer > p{
+    margin: 0px;
+    padding: 0px;
+    height: 5px;
+}
 
 br{
     margin: 10px;
@@ -54,7 +58,7 @@ a:hover{
 .fundo > p{
     color: white;
     background-color: rgba(44, 44, 44, 0.404);
-    width: 500px;
+    width: 400px;
 }
 
 .normal{
